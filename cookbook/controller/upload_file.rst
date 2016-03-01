@@ -9,7 +9,7 @@ How to Upload Files
     Instead of handling file uploading yourself, you may consider using the
     `VichUploaderBundle`_ community bundle. This bundle provides all the common
     operations (such as file renaming, saving and deleting) and it's tightly
-    integrated with Doctrine ORM, MongoDB ODM, PHPCR ODM and Propel.
+    integrated with Doctrine ORM, MongoDB ODM, PHPCR ODM and Propel. Currently this bundle only supports Symfony 2.x 
 
 Imagine that you have a ``Product`` entity in your application and you want to
 add a PDF brochure for each product. To do so, add a new property called ``brochure``
